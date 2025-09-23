@@ -6,7 +6,7 @@
 
 int main() {
 
-    int i;
+    int i, movCavalo = 1;
 
     //Movimentação da Torre...
     printf("Movimento da Torre:\n");
@@ -30,5 +30,21 @@ int main() {
     {
         printf("Esquerda\n"); 
     }
+
+      printf("\n"); 
+      
+    //Movimentação do cavalo...
+    printf("Movimeto do Cavalo:\n");
+
+    while(movCavalo--)
+    {
+        for(i = 0; i < 2; i++)
+        {
+            printf("Baixo\n");
+        }
+        printf("Direita\n"); 
+    }
+
+
     return 0;
 }
